@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+    font-display: swap;
+}
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --poppins-font: 'poppins';
+    --open-sans-font: 'open-sans';
+    --white: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 40px
+}
+
+h1 {
+    color: var(--white);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: var(--poppins-font);
+}
+
+body {
+    background-image: url('../images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: var(--violet);
+    font-family: var(--open-sans-font);
+    color: var(--white);
+}
+
+header {
+    padding: 30px 0;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.hero-image {
+    padding: 30px 0;
+}
+
+.hero-text {
+    padding-top: 30px;
+}
+
+.hero-text p {
+    line-height: 1.5;
+    letter-spacing: px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    appearance: none;
+    padding: 15px;
+    background-color: var(--white);
+    color: var(--violet);
+    border-radius: 30px;
+    width: 90%;
+    max-width: 300px;
+    display: block;
+    margin: 25px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--soft-magenta);
+    color: var(--white);
+}
+
+.social-media .container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.social-media-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-inline: 5px;
+}
+
+.social-media-icon:nth-child(1) {
+    background-image: url('../images/facebook-ring-white.svg');
+}
+
+.social-media-icon:nth-child(1):hover {
+    background-image: url('../images/facebook-ring-violet.svg');
+}
+
+.social-media-icon:nth-child(2) {
+    background-image: url('../images/twitter-ring-white.svg');
+}
+
+.social-media-icon:nth-child(2):hover {
+    background-image: url('../images/twitter-ring-violet.svg');
+}
+
+.social-media-icon:nth-child(3) {
+    background-image: url('../images/instagram-ring-white.svg');
+}
+
+.social-media-icon:nth-child(3):hover {
+    background-image: url('../images/instagram-ring-violet.svg');
+}
+
+@media screen and (min-width: 375px) {
+    body {
+        background-image: url('../images/bg-desktop.svg');
+        background-repeat: no-repeat;
+        background-color: var(--violet);
+        font-family: var(--open-sans-font);
+        color: var(--white);
+    }
+
+    header {
+        padding: 40px 0;
+    }
+
+    .logo {
+        max-width: 200px;
+    }
+
+    main .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-text {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    button {
+        border: none;
+        appearance: none;
+        padding: 20px;
+        background-color: var(--white);
+        color: var(--violet);
+        border-radius: 30px;
+        width: 90%;
+        max-width: 200px;
+        display: block;
+        margin: 25px 0;
+        cursor: pointer;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    h1,
+    .hero-text p {
+        text-align: left;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .social-media .container {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 40px;
+        margin-bottom: 20px;
+    }
+
+    .social-media-icon {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        margin-inline: 5px;
+    }
+}

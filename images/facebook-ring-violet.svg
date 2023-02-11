@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1667 1667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(4.16667,0,0,4.16667,0,0)">
+        <rect id="Artboard1" x="0" y="0" width="400" height="400" style="fill:none;"/>
+        <g id="Artboard11" serif:id="Artboard1">
+            <g transform="matrix(0.863764,0,0,0.863764,-76.0632,-117.152)">
+                <circle cx="319.605" cy="367.175" r="204.433" style="fill:none;stroke:rgb(219,133,226);stroke-width:14.47px;"/>
+            </g>
+            <g transform="matrix(0.480495,0,0,0.480495,76.9933,76.9933)">
+                <g id="facebook.svg">
+                    <g>
+                        <path d="M341.269,85.013L388.011,85.013L388.011,3.605C379.947,2.496 352.213,0 319.915,0C252.523,0 206.357,42.389 206.357,120.299L206.357,192L131.989,192L131.989,283.008L206.357,283.008L206.357,512L297.536,512L297.536,283.029L368.896,283.029L380.224,192.021L297.515,192.021L297.515,129.323C297.536,103.019 304.619,85.013 341.269,85.013Z" style="fill:rgb(219,133,226);fill-rule:nonzero;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
